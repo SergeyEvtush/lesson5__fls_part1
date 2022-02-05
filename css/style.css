@@ -1,0 +1,195 @@
+/*&display=swap*/
+@import url(null.css);
+@font-face {
+	font-family:Comforter;
+	src: url("../fonts/Comforter-Regular.woff2") format("woff2"),url("../fonts/Comforter-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family:Caps;
+	src: url("../fonts/BetterTogether-Caps.woff2") format("woff2"),url("../fonts/BetterTogether-Caps.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:Evil;
+	src: url("../fonts/ofont.woff2") format("woff2"),url("../fonts/ofont.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+	font-size: 20px;
+	font-family:"Caps";
+}
+.comf-font{
+	font-family: "Comforter";
+}
+.wraper{
+	overflow: hidden;
+	min-height: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.header {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.nav-list {
+	max-width: 800px;
+
+}
+.nav-list>li>ul>li>a{
+	text-decoration: overline;
+	color: rgb(27, 44, 155);
+
+	}
+.nav-list>li>a{
+	color: black;
+	font-size: 35px;
+}
+.nav-list>li{
+	
+	margin:10px 0px 0px 0px;
+	
+	}
+	.nav-list>li>a{
+text-transform: uppercase;
+text-shadow: 2px 5px 10px #000;
+		}
+.nav-list>li>ul>li{
+	
+	margin:0px 0px 0px 80px;
+	
+	}
+.nav-list>li>ul>li>ul>li{	
+	margin:0px 0px 0px 160px;
+	}		
+.nav-sub-list>li:last-child>a{
+	font-weight: bold;
+color: brown;
+}
+.nav-list>li>ul>li>ul>li>a{
+	font-weight: normal;
+	color: green;
+	text-decoration: underline;
+}
+li{
+	padding:5px 0px;
+}
+.title-block {
+	margin: 20px 0px;
+}
+.block-text {
+	font-size: 40px;
+	text-align: center;
+}
+.title-image,.title-figures{
+	margin:0px 0px 10px 0px;
+}
+.title-image-text,.title-figures-text{
+	text-align: right;
+	font-size: 25px;
+}
+.item-image{
+	width: 100%;
+max-width: 100%;
+}
+.airoplain-image{
+	margin:0px 0px 10px 0px;
+}
+.page-content{
+	margin:0px 0px 10px 0px;
+	max-width: 600px;
+}
+.right-text{
+	margin:0px 0px 10px auto;
+	line-height: 1.5;
+	
+}
+.left-text{
+	max-width: 100%;
+	line-height: 2;
+}
+.left-text>p{
+	text-align: left;
+}
+.page-content.center-text{
+	margin: 10px auto;
+	line-height: 3;
+	
+}
+.mini{
+	margin:10px auto;
+	max-width: 200px;
+	max-height: 200px;
+	overflow: auto;
+}
+.fair-figures{
+	font-family: "Evil";
+	font-size: 25px;
+	color: crimson;
+}
+.center-to-p{
+max-width: 100%;	
+}
+.center-to-p span{
+	display: inline-block;
+	max-width: 500px;
+	color: blueviolet;
+}
+.center-to-p >span+span{
+margin:0px 0px 0px 60%;
+font-family: "Caps";
+color: aquamarine;
+}
+.title-figures .title-figures-text{
+	font-size: 35px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 10px red;
+
+}
+.right-text{
+	max-width: 500px;
+	margin: 0 0 0 auto;
+}
+.list-figures{
+	max-width: 100%;
+
+}
+.figures-item{
+	display: inline-block;
+	max-width: 300px;
+	margin: 10px 25px;
+	
+}
+.title-item{
+	font-family: "Evil";
+	text-align: center;
+	margin:10px 0px 10px 0px;
+	color: crimson;
+}
+.item-image-figures{
+	max-width: 300px;
+height: 350px;
+
+}
+.our-team-foto{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0px 10px 0px 10px;
+}
+.our-team-foto img{
+	width: 400px;
+	max-width: 100%;
+}
+.footer-foto{
+	text-align: center;
+	font-size: 25px;
+	margin: 20px 0px;
+}
